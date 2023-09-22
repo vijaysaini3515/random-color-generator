@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 25%;
+    width: 35%;
+    text-align: center;
+    padding-top: 50px;
+    background: transparent;
+    backdrop-filter: 10px;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+
+}
+
+.box h2{
+    font-size: 35px;
+
+}
+
+.box button{
+    width: 70%;
+    height: 30%;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+}
